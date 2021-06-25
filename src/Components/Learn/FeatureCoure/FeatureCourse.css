@@ -1,6 +1,15 @@
-.box{
+ .box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* margin-top: 10px; */
-    /* gird-gap:5px; */
+    gap:5px;
+ }
+ @media screen and (max-width:1099.9px){
+    .box{
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
+ @media screen and (max-width:799.9px){
+    .box{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

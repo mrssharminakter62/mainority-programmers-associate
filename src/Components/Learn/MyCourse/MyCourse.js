@@ -6,8 +6,8 @@ import './MyCourse.css'
 const MyCourse = (props) => {
     const {id, name, details, modules, level} = props.page;
     return (
-        <div className='compon-style'> 
-           <div className=""> 
+        <div className='compon-style col-md-4 col-xs-12 col-sm-12'> 
+           <div className="all-course"> 
                     <div className="course">
                         <h1>{name}</h1>
                         <p>{details}</p>

@@ -2,10 +2,12 @@
     border: 1px solid gray;
     color: #fff;
     border-radius:10px;
-    margin-left: 15px;
     margin-bottom: 10px;
-    width: 400px;
     padding: 10px;
+}
+.all-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 .modul{
     margin-left: 300px;
@@ -40,3 +42,20 @@
      input:focus {
         width: 80%;
       }
+@media screen and (max-width:991.9px) {
+    .course{
+        max-width:100%;
+        margin:16px 0;
+    
+    }
+}
+@media screen and (max-width:1099.9px){
+    .all-course{
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
+ @media screen and (max-width:799.9px){
+    .all-course{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

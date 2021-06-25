@@ -9,7 +9,7 @@ const FeatureCourse = () => {
         setCourses(data);
     },[]);
     return (
-        <div className='mt-5 ml-5'>
+        <div className='col-12 mt-5' style={{width:'100%'}}>
             <h1 style={{color: 'white'}}>Featured Courses__________________________________________</h1>
             <div className="box"> 
                 {

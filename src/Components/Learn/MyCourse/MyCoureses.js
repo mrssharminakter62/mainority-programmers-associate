@@ -12,12 +12,12 @@ useEffect(() => {
     // console.log(fData)
 }, [])
     return (
-        <div className='mt-5 ml-5'>
-        <form className="mt-5 ml-5">
+        <div className='mt-5 '>
+        <form className="mt-5 ">
                      <input type="text" name="search" onblur={handleBlur} placeholder="Search.."/>
         </form> 
-        <h1 style={{color: 'white'}}>My Courses__________________________________</h1>
-        <div className=" box"> 
+        <h1 style={{color:'white'}}>My Courses__________________________________</h1>
+        <div className="box row"> 
           {
              pages.map( page => <MyCourse page={page} key={page.id} ></MyCourse>) 
           }

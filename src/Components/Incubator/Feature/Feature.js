@@ -19,11 +19,13 @@ const InvestDirectly = () => {
              </div>
            </div>
            <div className="col-md-10">
-            <div className="items">
+           <div className="row">
+           <div className="items">
                 {
                     items.map(item => <Item item={item} key={item.id} ></Item>)
                 }
             </div>
+           </div>
             </div>
      </div>
     );

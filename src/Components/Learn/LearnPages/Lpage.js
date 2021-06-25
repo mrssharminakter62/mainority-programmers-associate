@@ -6,9 +6,9 @@ import MyCourse from '../MyCourse/MyCourse';
 
 const Lpage = () => {
     return (
-        <div >
+        <div className='' style={{overflow: 'hidden'}}>
             <LearnPage/>
-            <div style={{background:" #151371"}}>
+            <div className="" style={{background:" #151371"}}>
              <MyCoureses/>
              <FeatureCourse/>
             </div>
