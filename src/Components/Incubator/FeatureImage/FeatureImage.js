@@ -7,10 +7,12 @@ import './FeatureImage.css';
 const FeatureImage = () => {
     
     return (
-            <div className=" container justify-content-center row mt-5 feature" >
-                <div className="col-md-4 "><img src={img1} alt="" className="img__box"/></div>
+            <div className="container">
+               <div className="justify-content-center row mt-5 feature" >
+               <div className="col-md-4 "><img src={img1} alt="" className="img__box"/></div>
                 <div className="col-md-4 "><img src={img2} alt="" className="img__box" /></div>
                 <div className="col-md-4 "><img src={img3} alt="" className="img__box" /></div>  
+               </div>
             </div>
     );
 };
